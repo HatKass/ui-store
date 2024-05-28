@@ -33,7 +33,7 @@ const SmartWatches = () => {
                     />
                     <div className="flex justify-between text-lg">
                       <span className="">{product.name}</span>
-                      <span className="text-[#72AEC8]">{product.price}</span>
+                      <span className="text-[#72AEC8]">$ {product.price}</span>
                     </div>
                   </CardContent>
                 </Card>
